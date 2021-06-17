@@ -1,4 +1,5 @@
 body {
+    font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -12,7 +13,7 @@ nav {
 }
 
 main {
-    margin-top: 11em;
+    margin-top: 9.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,16 +25,49 @@ footer {
     justify-content: space-between;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.75;
+}
+
+.sign-in-button {
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    width: 4.5rem;
+    height: 1.9rem;
+}
+
 .google-logo {
-    margin: auto;
+    margin: auto
+}
+
+.search-bar-label {
+    display: flex;
+    justify-content: center;
 }
 
 .search-bar {
+    width: 37rem;
+    height: 3rem;
+    outline: none;
+    border: 1px solid #dfe1e5;
+    margin-top: 1.5rem;
+    border-radius: 25px;
+}
+
+.search-buttons-container {
     display: flex;
     justify-content: center;
 }
 
 .search-buttons {
-    display: flex;
-    justify-content: center;
+    border: 1px solid #f8f8f8;
+    border-radius: 4px;
+    color: #5f6368;
+    background-color: #f8f8f8;
+    margin: 1.5rem 0.5rem;
+    width: 8.5rem;
+    height: 2.3rem;
 }
