@@ -10,29 +10,39 @@
 <body>
     <header>
         <nav>
-            <a href="#">About</a>
-            <a href="#">Store</a>
-            <a href="#">Gmail</a>
-            <a href="#">Images</a>
-            <button><!-- Icon of button goes here --></button>
-            <button id="sign-in">Sign in</button>
+            <div class="left-nav">
+                <a href="#">About</a>
+                <a href="#">Store</a>
+            </div>
+            <div class="right-nav">
+                <a href="#">Gmail</a>
+                <a href="#">Images</a>
+                <button><!-- Icon of button goes here --></button>
+                <button id="sign-in">Sign in</button>
+            </div>
         </nav>
     </header>
     <main>
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
-        <label for="search-bar">
+        <img class="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+        <label class="search-bar" for="search-bar">
             <input type="search" name="search-bar" id="search-bar">
         </label>
-        <button>Google Search</button>
-        <button>I'm Feeling Lucky</button>
+        <div class="search-buttons">
+            <button>Google Search</button>
+            <button>I'm Feeling Lucky</button>
+        </div>
     </main>
     <footer>
-        <a href="#">Advertising</a>
-        <a href="#">Business</a>
-        <a href="#">How Search works</a>
-        <a href="#">Privacy</a>
-        <a href="#">Terms</a>
-        <a href="#">Settings</a>
+        <div class="left-footer">
+            <a href="#">Advertising</a>
+            <a href="#">Business</a>
+            <a href="#">How Search works</a>
+        </div>
+        <div class="right-footer">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Settings</a>
+        </div>
     </footer>
 </body>
 </html>
