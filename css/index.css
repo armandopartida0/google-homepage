@@ -60,6 +60,15 @@ a {
     justify-content: center;
 }
 
+.search-icon {
+    position: absolute;
+    padding-top: 2.8em;
+    padding-left: auto;
+    padding-right: 42em;
+    width: 1.7em;
+    opacity: 30%;
+}
+
 .search-bar {
     width: 37rem;
     height: 3rem;
